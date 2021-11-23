@@ -1,0 +1,360 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>A Simple Landing Page Layout</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/responsive.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <!-- google font link-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@100;200;300;500;700&display=swap" rel="stylesheet">
+    <!-- font awesome cdn link -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
+</head>
+<body>
+  <!-- menu start -->
+  <div class="container">
+    <nav class="navbar navbar-expand-lg navbar-light">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#"><img src="images/logo.svg" alt=""></a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarText">
+          <ul class="navbar-nav custom-nav m-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">Enroll For Course</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">Meet Your Trainers</a>
+            </li>
+          </ul>
+          <div class="">
+              <button class="btn custom-btn">Login</button>
+          </div>
+        </div>
+      </div>
+    </nav>
+  </div>
+  <!-- menu end -->
+  <!-- banner start -->
+  <div class="container">
+    <div id="carouselExampleIndicators" class="carousel slide custom-slider-main" data-bs-ride="carousel">
+      <div class="carousel-indicators">
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" aria-current="true" aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" class="active" aria-label="Slide 2"></button>
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+      </div>
+      <div class="carousel-inner text-white">
+        <div class="carousel-item">
+          <img src="images/banner-image.png" class="d-block w-100" alt="banner-image">
+          <div class="img-overlay">
+            <p>Professional Qualification Course</p>
+            <h2>CILT International <br> Certificate in Logistics <br> and Transport</h2>
+            <p>Registration Deadline: <span>10 October, 2021</span> </p>
+            <p>Course Fee: <span>Tk. 20,000</span></p>
+            <button class="btn custom-btn custom-btn-enroll ">enroll now</button>
+            <button class="btn custom-btn custom-btn-learn">learn more</button>
+          </div>
+        </div>
+        <div class="carousel-item active">
+          <img src="images/banner-image.png" class="d-block w-100" alt="banner-image">
+          <div class="img-overlay">
+            <p>Professional Qualification Course</p>
+            <h2>CILT International <br> Certificate in Logistics <br> and Transport</h2>
+            <p>Registration Deadline: <span>10 October, 2021</span> </p>
+            <p>Course Fee: <span>Tk. 20,000</span></p>
+            <button class="btn custom-btn custom-btn-enroll ">enroll now</button>
+            <button class="btn custom-btn custom-btn-learn">learn more</button>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img src="images/banner-image.png" class="d-block w-100" alt="banner-image">
+          <div class="img-overlay">
+            <p>Professional Qualification Course</p>
+            <h2>CILT International <br> Certificate in Logistics <br> and Transport</h2>
+            <p>Registration Deadline: <span>10 October, 2021</span> </p>
+            <p>Course Fee: <span>Tk. 20,000</span></p>
+            <button class="btn custom-btn custom-btn-enroll ">enroll now</button>
+            <button class="btn custom-btn custom-btn-learn">learn more</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  
+  <!-- banner end -->
+  <div class="m-5"></div>
+  <!-- section 1 -->
+  <section class="container">
+      <h1 class="section1-header">Get the Professional <br> Qualifications you are <br> looking for</h1>
+    <div class="row">
+      <div class="col-md-6">
+        <p class="section1-para">Interport Corporate Academy is also accredited by the Chartered Institute of Logistics and Transport (CILT), International (UK) to provide the globally recognized CILT International Diploma and Certificate courses in Logistics and Transport in Bangladesh.</p>
+      </div>
+      <div class="col-md-6 d-flex justify-content-end align-items-end">
+        <div>
+          <button class="btn custom-btn">VIEW ALL QUALIFICATIONS</button>
+        </div>
+        
+      </div>
+    </div>
+  </section>
+  <!-- section 1 -->
+
+  <div class="m-5"></div>
+
+  <!-- section 2 -->
+  <section class="container">
+    <div class="row row-cols-1 row-cols-md-3 g-4">
+      <div class="col">
+        <div class="card h-100 custom-card">
+          <div class="position-relative">
+            <img src="images/card-image-1.png" class="card-img-top" alt="...">
+            <div class="position-absolute card-img-overlay">
+              <div class="cio-child-1">
+                <div>
+                  <p>Deadline:</p>
+                  <p style="font-weight: normal;">10 Oct, 2021</p>
+                </div>
+
+              </div>
+              <div class="cio-child-2">
+                <div><a href="#" class="text-decoration-none text-white cimg-right-ovrly-txt">Open For Registration</a></div>
+              </div>
+            </div>
+          </div>
+          <div class="card-body">
+            <p class="card-text">Professional Qualification Program.</p>
+            <h5 class="card-title">CILT International Certificate in Logistics and Transport</h5>
+            <div class="card-info-part-main">
+                <div>
+                  <img src="images/clock-icon.png" alt="">
+                  <p>6 Months</p>
+                </div>
+                <div>
+                  <img src="images/man-icon.png" alt="">
+                  <p>24 Seats</p>
+                </div>
+                <div>
+                  <img src="images/date-icon.png" alt="">
+                  <p>20 Oct, 2021</p>
+                </div>
+            </div>
+          </div>
+          <div class="card-footer">
+            <div class="custom-cfooter-main">
+              <div class="cio-child-1">
+                <div>
+                  <p>Course Fee</p>
+                  <p style="font-weight: normal;">Tk. 20,000</p>
+                </div>
+
+              </div>
+              <div class="ccf-child-2">
+                <div>
+                  <button class="btn custom-btn" style="text-transform:uppercase">enroll now</button>
+                </div>
+              </div>
+            </div>
+            <!--  -->
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card h-100 custom-card">
+          <div class="position-relative">
+            <img src="images/card-image-2.png" class="card-img-top" alt="...">
+            <div class="position-absolute card-img-overlay">
+              <div class="cio-child-1">
+                <div>
+                  <p>Deadline:</p>
+                  <p style="font-weight: normal;">10 Oct, 2021</p>
+                </div>
+
+              </div>
+              <div class="cio-child-2">
+                <div><a href="#" class="text-decoration-none text-white cimg-right-ovrly-txt">Open For Registration</a></div>
+              </div>
+            </div>
+          </div>
+          <div class="card-body">
+            <p class="card-text">Professional Qualification Program.</p>
+            <h5 class="card-title">Incoterms® 2020</h5><br>
+            <div class="card-info-part-main">
+                <div>
+                  <img src="images/clock-icon.png" alt="">
+                  <p>6 Months</p>
+                </div>
+                <div>
+                  <img src="images/man-icon.png" alt="">
+                  <p>24 Seats</p>
+                </div>
+                <div>
+                  <img src="images/date-icon.png" alt="">
+                  <p>20 Oct, 2021</p>
+                </div>
+            </div>
+          </div>
+          <div class="card-footer">
+            <div class="custom-cfooter-main">
+              <div class="cio-child-1">
+                <div>
+                  <p>Course Fee</p>
+                  <p style="font-weight: normal;">Tk. 65,000</p>
+                </div>
+
+              </div>
+              <div class="ccf-child-2">
+                <div>
+                  <button class="btn custom-btn" style="text-transform:uppercase">enroll now</button>
+                </div>
+              </div>
+            </div>
+            <!--  -->
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card h-100 custom-card">
+          <div class="position-relative">
+            <img src="images/card-image-1.png" class="card-img-top" alt="...">
+            <div class="position-absolute card-img-overlay">
+              <div class="cio-child-1">
+                <div>
+                  <p>Deadline:</p>
+                  <p style="font-weight: normal;">10 Oct, 2021</p>
+                </div>
+
+              </div>
+              <div class="cio-child-2">
+                <div><a href="#" class="text-decoration-none text-white cimg-right-ovrly-txt">Open For Registration</a></div>
+              </div>
+            </div>
+          </div>
+          <div class="card-body">
+            <p class="card-text">Professional Qualification Program.</p>
+            <h5 class="card-title">CILT International Certificate in Logistics and Transport</h5>
+            <div class="card-info-part-main">
+                <div>
+                  <img src="images/clock-icon.png" alt="">
+                  <p>6 Months</p>
+                </div>
+                <div>
+                  <img src="images/man-icon.png" alt="">
+                  <p>24 Seats</p>
+                </div>
+                <div>
+                  <img src="images/date-icon.png" alt="">
+                  <p>20 Oct, 2021</p>
+                </div>
+            </div>
+          </div>
+          <div class="card-footer">
+            <div class="custom-cfooter-main">
+              <div class="cio-child-1">
+                <div>
+                  <p>Course Fee</p>
+                  <p style="font-weight: normal;">Tk. 20,000</p>
+                </div>
+
+              </div>
+              <div class="ccf-child-2">
+                <div>
+                  <button class="btn custom-btn" style="text-transform:uppercase">enroll now</button>
+                </div>
+              </div>
+            </div>
+            <!--  -->
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- section 2 -->
+
+  <div class="m-5"></div>
+
+  <!-- footer -->
+  <footer>
+    <section class="container">
+      <div class="row">
+        <div class="col-md-4">
+          <img src="images/footer-logo.svg" alt="">
+          <div class="social-icon-main">
+            <img src="images/facebook-icon.png" alt="">
+            <img src="images/twitter-icon.png" alt="">
+            <img src="images/instagram-icon.png" alt="">
+          </div>
+          <div class="mt-5 mb-5 footer-nav">
+            <ul class="list-unstyled">
+              <li><a href="#">About Us</a></li>
+              <li><a href="#">Our Members</a></li>
+              <li><a href="#">Berthing Report</a></li>
+              <li><a href="#">Careers</a></li>
+              <li><a href="#">Links</a></li>
+              <li><a href="#">Contact Us</a></li>
+            </ul>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <h5 class="footer-2ndcol-header">Chattogram</h5>
+          <table class="footer-2ndcol-table">
+            <tr>
+              <td style="vertical-align: baseline;"><img src="images/location-icon.svg" alt=""></td>
+              <td><p>Chamber House (2nd floor), <br>
+                38 Agrabad C/A, <br> Chattogram-4100, Bangladesh</p></td>
+            </tr>
+            <tr>
+              <td><img src="images/call-icon.svg" alt=""></td>
+              <td><p>031-723393</p></td>
+            </tr>
+            <tr>
+              <td><img src="images/mail-icon.svg" alt=""></td>
+              <td><p>bsaa@bbts.net</p></td>
+            </tr>
+          </table>
+          <h5 class="footer-2ndcol-header mt-5">Khulna</h5>
+          <table class="footer-2ndcol-table">
+            <tr>
+              <td style="vertical-align: baseline;"><img src="images/location-icon.svg" alt=""></td>
+              <td><p>Ansari Complex (2nd Floor) <br>
+                160, Sher-e-Bangla Road, Khulna,<br> Bangladesh</p></td>
+            </tr>
+            <tr>
+              <td><img src="images/call-icon.svg" alt=""></td>
+              <td><p>041-720886</p></td>
+            </tr>
+            <tr>
+              <td><img src="images/mail-icon.svg" alt=""></td>
+              <td><p>bsaa.khulna@gmail.com</p></td>
+            </tr>
+          </table>
+        </div>
+        <div class="col-md-4">
+          <h2 class="get-in-touch mt-sm-5">Get In Touch</h2>
+          <form action="" method="post">
+            <input type="text" name="name" placeholder="Your Name">
+            <input type="text" name="email" placeholder="Your Email">
+            <input type="text" name="subject" placeholder="Your Subject">
+            <textarea name="" id="" cols="30" rows="10" placeholder="Your Message"></textarea>
+            <input type="submit" class="btn custom-btn send-btn" value="SEND MESSAGE">
+        </form>
+        </div>
+      </div>
+      <hr>
+      <!-- copyright -->
+      <small class="copyrigt-text">&copy; Copyright 2020 - 2021 <i class="fas fa-circle"></i> All rights reserved by Antopolis</small>
+    </section>
+  </footer>
+  <!-- footer -->
+  <!--  -->
+<!-- js link -->
+<script src="js/bootstrap.min.js"></script>
+<script src="js/function.js"></script>
+</body>
+</html>
