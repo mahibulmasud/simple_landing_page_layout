@@ -42,13 +42,14 @@ a{
 .custom-nav{
     font-family: 'IBM Plex Sans', sans-serif;
 }
-.custom-slider-main{
-    height: 80vh !important;
+.custom-slider-main {
+    height: 430px !important;
 }
 .custom-slider-main img {
-    height: 80vh !important;
+    height: 430px !important;
     object-fit: cover;
     object-position: center;
+    border-radius: 10px;
 }
 .img-overlay {
     position: absolute;
